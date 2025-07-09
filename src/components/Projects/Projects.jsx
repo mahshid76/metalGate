@@ -4,10 +4,7 @@ function Projects({ imageUrl, description }) {
   return (
     <div className={Styled.card}>
       <img
-        src={`assets/img/${imageUrl}`}
-        alt="project"
-        className={Styled.image}
-      />
+        src={`assets/img/${imageUrl}`}/>
       <p className={Styled.description}>{description}</p>
     </div>
   );
