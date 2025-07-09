@@ -8,7 +8,7 @@ function Home() {
   const [projects, setProjects] = useState([]);
 
   useEffect(() => {
-    fetch("http://localhost:5500/projects")
+    fetch("/api/projects")
       .then((res) => res.json())
       .then((data) => setProjects(data))
       .catch((error) => console.error("Error", error));
