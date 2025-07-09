@@ -2,7 +2,6 @@
   "name": "my-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://mahshid76.github.io/metalGate/",
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
     "@testing-library/jest-dom": "^6.6.3",
@@ -16,8 +15,6 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "concurrently \"npm run start-react\" \"npm run start-json-server\"",
     "start-react": "react-scripts start",
     "start-json-server": "json-server --watch db.json --port 5500",
@@ -49,3 +46,4 @@
     "json-server": "^0.17.3"
   }
 }
+
