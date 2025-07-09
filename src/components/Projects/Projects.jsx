@@ -5,7 +5,7 @@ function Projects({ imageUrl, description }) {
     <div className={Styled.card}>
       <img
         
-        src={`/assets/img/${imageUrl}`}
+        src={`${process.env.PUBLIC_URL}/assets/img/${imageUrl}`}
         alt="project"
         className={Styled.image}
       />
