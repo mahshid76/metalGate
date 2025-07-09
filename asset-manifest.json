@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/metalGate/static/css/main.69228a0e.css",
+    "main.js": "/metalGate/static/js/main.8f00bf3c.js",
+    "static/js/453.ed3810f9.chunk.js": "/metalGate/static/js/453.ed3810f9.chunk.js",
+    "index.html": "/metalGate/index.html",
+    "main.69228a0e.css.map": "/metalGate/static/css/main.69228a0e.css.map",
+    "main.8f00bf3c.js.map": "/metalGate/static/js/main.8f00bf3c.js.map",
+    "453.ed3810f9.chunk.js.map": "/metalGate/static/js/453.ed3810f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.69228a0e.css",
+    "static/js/main.8f00bf3c.js"
+  ]
+}
