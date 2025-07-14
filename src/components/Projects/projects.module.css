@@ -22,6 +22,14 @@ img {
   object-fit: cover;
 }
 
+.projectImg {
+  width: 100%;
+  height: auto;
+  max-height: 300px;
+  object-fit: cover;
+  display: block;
+}
+
 .description {
   padding: 1rem;
   font-size: 1rem;
@@ -34,9 +42,8 @@ img {
     max-width: 100%;
     border-radius: 8px;
   }
-  img {
-    height: 180px;
-    border-radius: 8px 8px 0 0;
+  .projectImg {
+    max-height: 180px;
   }
   .description {
     font-size: 0.95rem;
