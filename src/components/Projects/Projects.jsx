@@ -3,8 +3,8 @@ import Styled from "./projects.module.css";
 function Projects({ imageUrl, description }) {
   return (
     <div className={Styled.card}>
-      <img
-        className={Styled.projectImg}
+      <img 
+        className={Styled.image}
         src={`/assets/img/${imageUrl}`}
         alt={description}
       />
