@@ -12,7 +12,8 @@ function ContactUs() {
           <div className={styles.info}>
             <h2 className={styles.title}>Get in Touch</h2>
             <p className={styles.description}>
-              We'd love to hear from you! Reach out with any questions or ideas.
+              We welcome all enquiries — no job is too small. Contact us today
+              for a free, no-obligation quote.{" "}
             </p>
             <ul className={styles.list}>
               <li>
